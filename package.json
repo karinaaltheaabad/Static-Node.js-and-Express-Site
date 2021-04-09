@@ -1,0 +1,22 @@
+{
+  "name": "static_node_and_express_site-v1",
+  "version": "1.0.0",
+  "description": "treehouse techdegree project 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site.git"
+  },
+  "author": "karina abad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
