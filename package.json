@@ -1,8 +1,14 @@
 {
-  "name": "static_node_and_express_site-v1",
+  "name": "static-node.js-and-express-site",
   "version": "1.0.0",
-  "description": "treehouse techdegree project 6",
-  "main": "index.js",
+  "description": "6th TechDegree Treehouse Project",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site/issues"
   },
-  "homepage": "https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site#readme",
-  "dependencies": {
-    "pug": "^3.0.2"
-  }
+  "homepage": "https://github.com/karinaaltheaabad/Static-Node.js-and-Express-Site#readme"
 }
