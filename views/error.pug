@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-html(lang="en" dir="ltr")
-    head
-        meta(charset='utf-8')
-        meta(http-equiv='x-ua-compatible', content='ie=edge')
-        meta(name='viewport', content='width=device-width, initial-scale=1.0')
-        title Portfolio Site
+extends ./layout.pug
 
-    body
-        block content 
-            h1= error.message 
-            h2= error.status
-            p= error.stack
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+    h1= error.message 
+    h2= error.status
+    pre= error.stack
