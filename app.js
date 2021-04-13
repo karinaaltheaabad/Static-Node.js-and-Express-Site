@@ -1,17 +1,25 @@
 const express = require('express');
-const data = require('./data.json');
 const app = express(); 
+const routes = require('./routes');
 
-//setting pug as a template engine for your app
+app.use(routes);
+
 app.set('view engine', 'pug');
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
-app.get('/home', (req, res) => {
-    res.render('index.html');
+app.use((req, res, next) => {
+    const err = new Error('Oops, something went wrong!');
+    err.status = 500; 
+    next(err); 
 })
 
-app.get('/about', (req, res) => {
-    res.render('about.html');
+app.use((err, req, res, next) => {
+    res.locals.error = err; 
+    res.status(err.status);
+    res.render('error');
+    console.log('Oops, something went wrong!')
 })
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log("Listening on port 3000");
+});

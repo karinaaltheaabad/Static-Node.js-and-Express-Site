@@ -2,76 +2,67 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "random quote generator",
+            "project_name": "Random Quote Generator",
             "description": "displays a random quote at timed intervals or on user click",
-            "technologies": "JavaScript, HTML, CSS",
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://karinaaltheaabad.github.io/Random-Quote-Generator/index.html",
             "github_link": "https://github.com/karinaaltheaabad/Random-Quote-Generator",
             "image_urls": [
-                {
-                    "landing": "images/random-quote-generator/random-quote-generator-landing.png",
-                    "rpg_first": "images/random-quote-generator/random-quote-generator-actual.png",
-                    "rpg_second": "images/random-quote-generator/random-quote-generator-actual-2.png"
-                }
+                    "/static/images/random-quote-generator/random-quote-generator-landing.png",
+                    "/static/images/random-quote-generator/random-quote-generator-actual.png",
+                    "/static/images/random-quote-generator/random-quote-generator-actual-2.png"
             ]
         },
         {
             "id": 1,
-            "project_name": "data pagination and filtering",
+            "project_name": "Data Pagination and Filtering",
             "description": "displays a random set of users which the user can sort through pages or a search",
-            "technologies": "JavaScript, HTML, CSS",
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://karinaaltheaabad.github.io/Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/karinaaltheaabad/Data-Pagination-and-Filtering",
             "image_urls": [
-                {
-                    "landing": "images/data-pagination/data-pagination-landing.png",
-                    "rpg_first": "images/data-pagination/data-pagination-actual.png",
-                    "rpg_second": "images/data-pagination/data-pagination-actual-2.png"
-                }
+                    "/static/images/data-pagination/data-pagination-landing.png",
+                    "/static/images/data-pagination/data-pagination-actual.png",
+                    "/static/images/data-pagination/data-pagination-actual-2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "form that collects user information, lets the user choose events and has different payment methods",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://karinaaltheaabad.github.io/Interactive-Form/",
+            "github_link": "https://github.com/karinaaltheaabad/Interactive-Form",
+            "image_urls": [
+                    "/static/images/interactive-form/interactive-form-landing.png",
+                    "/static/images/interactive-form/interactive-form-actual.png",
+                    "/static/images/interactive-form/interactive-form-actual-2.png"
             ]
         },
         {
             "id": 3,
-            "project_name": "interactive form",
-            "description": "form that collects user information, lets the user choose events and has different payment methods",
-            "technologies": "JavaScript, HTML, CSS",
-            "live_link": "https://karinaaltheaabad.github.io/Interactive-Form/",
-            "github_link": "https://github.com/karinaaltheaabad/Interactive-Form",
+            "project_name": "Phrase Hunter",
+            "description": "Game that user guesses the phrase through selecting letters and matching them with the phrase selected randomly",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://karinaaltheaabad.github.io/OOP-Game-Show-App/",
+            "github_link": "https://github.com/karinaaltheaabad/OOP-Game-Show-App",
             "image_urls": [
-                {
-                    "landing": "images/interactive-form/interactive-form-landing.png",
-                    "rpg_first": "images/interactive-form/interactive-form-actual.png",
-                    "rpg_second": "images/interactive-form/interactive-form-actual-2.png"
-                }
+                    "/static/images/phrase-hunter/phrase-hunter-landing.png",
+                    "/static/images/phrase-hunter/phrase-hunter-actual.png",
+                    "/static/images/phrase-hunter/phrase-hunter-actual-2.png"
             ]
         },
         {
             "id": 4,
-            "project_name": "Phrase Hunter",
-            "description": "Game that user guesses the phrase through selecting letters and matching them with the phrase selected randomly",
-            "technologies": "JavaScript, HTML, CSS",
-            "live_link": "https://karinaaltheaabad.github.io/OOP-Game-Show-App/",
-            "github_link": "https://github.com/karinaaltheaabad/OOP-Game-Show-App",
-            "image_urls": [
-                {
-                    "landing": "images/phrase-hunter/phrase-hunter-landing.png",
-                    "rpg_first": "images/phrase-hunter/phrase-hunter-actual.png",
-                    "rpg_second": "images/phrase-hunter/phrase-hunter-actual-2.png"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "project_name": "employee directory",
+            "project_name": "Employee Directory",
             "description": "an employee directory that communicates with a third party API",
-            "technologies": "JavaScript, HTML, CSS",
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://karinaaltheaabad.github.io/Public-API-Requests/",
             "github_link": "https://github.com/karinaaltheaabad/Public-API-Requests",
             "image_urls": [
-                {
-                    "landing": "images/employee-directory/employee-directory-landing.png",
-                    "rpg_first": "images/employee-directory/employee-directory-actual.png"
-                }
+                "/static/images/employee-directory/employee-directory-landing.png",
+                "/static/images/employee-directory/employee-directory-actual.png",
+                "/static/images/employee-directory/employee-directory-actual-2.png"
             ]
         }
     ]
